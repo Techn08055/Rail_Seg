@@ -1,0 +1,54 @@
+# Python specific
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info
+dist/
+build/
+*.pyo
+*.pyd
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# Environment files
+.env
+venv/
+env/
+ENV/
+.venv/
+*.env
+
+# Machine Learning Model Files
+*.h5
+*.hdf5
+*.ckpt
+*.tflite
+*.pth
+
+# Logs
+*.log
+logs/
+
+# OS specific files
+.DS_Store
+Thumbs.db
+
+# IDE specific files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Dependency directories
+node_modules/
+
+# Generated files
+*.tar.gz
+*.zip
+*.tar
+
+# Ignore large datasets
+data/*.csv
+data/*.json
